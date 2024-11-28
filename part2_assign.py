@@ -11,5 +11,5 @@ Ages   Number of Students (Frequency)
 20            1  
 เขียนโปรแกรม Python เพื่อ:
 
-หาฐานนิยม (Mode,Median,Mean,Min,Max) ของอายุนักเรียนในห้องเรียน
+หาค่ากลาง (Mode,Median,Mean,Min,Max) ของอายุนักเรียนในห้องเรียน
 """
