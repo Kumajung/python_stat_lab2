@@ -13,7 +13,7 @@
 from collections import Counter
 
 # ข้อมูลจำนวนจักรยานของแต่ละครัวเรือน
-bicycles = [0, 2, 1, 0, 3, 2, 1, 4, 2, 1, 1, 3, 0, 2, 1, 0, 1, 2, 3, 4]
+bicycles = [2, 2, 1, 0, 3, 2, 1, 4, 2, 1, 1, 3, 0, 2, 1, 0, 1, 2, 3, 4]
 
 # นับจำนวนครั้งที่แต่ละจำนวนจักรยานปรากฏ
 bicycle_counts = Counter(bicycles)
@@ -22,7 +22,7 @@ bicycle_counts = Counter(bicycles)
 households_without_bicycles = bicycle_counts[0]
 
 # คำนวณจำนวนจักรยานทั้งหมดในหมู่บ้าน
-total_bicycles = sum(num_bikes * count for num_bikes, count in bicycle_counts.items())
+total_bicycles = sum(count for num_bikes, count in bicycle_counts.items())
 
 # แสดงผลลัพธ์ในรูปแบบตาราง
 print("จำนวนจักรยาน\tจำนวนครัวเรือน")
